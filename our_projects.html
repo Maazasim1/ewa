@@ -7,151 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Engineering Work Associates</title>
 </head>
 
-<body style="background-color: whitesmoke;font-family: sans-serif">
-    <nav>
-        <div class="navbar">
-            <div class="container nav-container">
-                <input class="checkbox" type="checkbox" name="" id="" />
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <div class="logo">
-                    <a href="index.html">
-                        <h1 style="font-size:xx-large;"><strong>Engineering Work Associates</strong></h1>
-                    </a>
-                </div>
-                <div class="menu-items">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="our_projects.html">Our Projects</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Engineering Work Associates</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="our_projects.html">Our Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
-    <section class="header">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 mt-auto mb-auto">
-                    <div class="section_logo">
-                        <a href="Home.html"><img src="./images/logo.webp" alt="logo" width="300px"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="header_how">
-        <div class="container">
+    <section class="project-deliveries py-4">
+        <div class="container text-center">
+            <h2>Project Deliveries</h2>
+            <p>We take pride in delivering high-quality construction projects that meet the highest standards of safety and durability. Here are some of our completed projects:</p>
             <div class="row">
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <video width="320" height="240" controls autoplay>
-                        <source src=Videos/project_vid.mp4 type=video/ogg>
-                    </video>
-                </div>
-
-                <div class="col-6 mt-auto mb-auto text-right" id="lists">
-                    <ul style="list-style-type: none">
-                        <li>
-                            <img src="images/Group 896.png" alt="couch">
-                        </li>
-                        <li>
-                            <p> At gulshan e meymar sector S site 1 being demonstrated.!
-                            </p>
-                        </li>
-                        <li>
-                            <h1>"Our standard safety procedures."</h1>
-                        </li>
-                    </ul>
-                </div>
+                <div class="col-md-4"><img src="images/delivered-1.jpg" alt="Delivered Project 1" class="img-fluid"><p>Residential Complex - Delivered on time with superior quality.</p></div>
+                <div class="col-md-4"><img src="images/delivered-2.jpg" alt="Delivered Project 2" class="img-fluid"><p>Commercial Plaza - Engineered for modern businesses.</p></div>
+                <div class="col-md-4"><img src="images/delivered-3.jpg" alt="Delivered Project 3" class="img-fluid"><p>Highway Construction - Ensuring better connectivity.</p></div>
             </div>
         </div>
     </section>
-    <br>
-    <section class="header_how">
-        <div class="container">
+
+    <section class="office-team py-4">
+        <div class="container text-center">
+            <h2>Our Office & Team</h2>
+            <p>Our dedicated team of engineers, architects, and project managers work together to turn visions into reality. Here’s a glimpse into our workspace and our hardworking professionals.</p>
             <div class="row">
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <video width="320" height="200" controls autoplay>
-                        <source src=Videos/project_vid_2.mp4 type=video/ogg>
-                    </video>
-
-                </div>
-
-                <div class="col-6 mt-auto mb-auto text-right" id="lists">
-                    <ul style="list-style-type: none">
-                        <li>
-                            <h1>"How we proceed with our standard safety procedures.!"</h1>
-                        </li>
-                        <li>
-                            <p>At gulshan e meymar sector S site 1.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+                <div class="col-md-6"><img src="images/office.jpg" alt="Office" class="img-fluid"><p>Our corporate headquarters - the hub of innovation.</p></div>
+                <div class="col-md-6"><img src="images/team-1.jpg" alt="Team" class="img-fluid"><p>Our expert construction team on-site, ensuring quality execution.</p></div>
             </div>
         </div>
     </section>
 
-    <br>
-    <section class="header_how">
-        <div class="container">
+    <section class="construction-security py-4">
+        <div class="container text-center">
+            <h2>Construction & Security</h2>
+            <p>We emphasize high-quality construction techniques and rigorous safety protocols to ensure the success of every project.</p>
             <div class="row">
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <video width="320" height="200" controls autoplay>
-                        <source src=Videos/project_vid_3.mp4 type=video/ogg>
-                    </video>
-                </div>
-
-                <div class="col-6 mt-auto mb-auto text-right" id="lists">
-                    <ul style="list-style-type: none">
-                        <li>
-                            <h1>"Basic marking to avoid inaccuracy.!"</h1>
-                        </li>
-                        <li>
-                            <p>Basic markings on gulshan e meymar sector S site 1 before column work.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="Elevations" style="margin-top: 100px;">
-        <div class="container">
-            <div class="row">
-                <h1 style="text-align: center; text-decoration: solid;">"Sample Elevations"</h1>
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <img src="images/E1.jpeg" width="390px" alt="couch">
-                    <div class="bottom-left">Gulshan-e-Iqbal Block 7.</div>
-                </div>
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <img src="images/E2.jpeg"  alt="couch">
-                    <div class="bottom-left">Gulshan-e-Meymar Sector S, B69.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="Elevations" style="margin-top: 50px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <img src="images/E3.jpeg" width="390px" height="300px" alt="couch">
-                    <div class="bottom-left">Gulshan-e-Meymar Sector S, B3.</div>
-                </div>
-                <div class="col-6 mt-auto mb-auto text-center">
-                    <img src="images/E4.jpeg" width="530px" alt="couch">
-                    <div class="bottom-left">Gulshan-e-Meymar Sector S, B3.</div>
-                </div>
+                <div class="col-md-4"><img src="images/roof-2.jpg" alt="Roof Work" class="img-fluid"><p>Precision in roofing for long-lasting durability.</p></div>
+                <div class="col-md-4"><img src="images/security.jpg" alt="Security" class="img-fluid"><p>Strict safety measures at every construction site.</p></div>
+                <div class="col-md-4"><img src="images/rood.jpg" alt="Road Construction" class="img-fluid"><p>Developing modern roads for seamless infrastructure.</p></div>
             </div>
         </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
